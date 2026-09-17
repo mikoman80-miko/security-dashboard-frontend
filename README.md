@@ -18,3 +18,10 @@
 - 전체적인 화면 UI/UX 구성 및 디자인 (CSS)
 - React를 활용한 컴포넌트(Component) 설계 및 상태(State) 관리
 - 가짜 JSON 데이터를 활용한 API 연동 테스트
+
+<p>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=white"/>
+</p>
