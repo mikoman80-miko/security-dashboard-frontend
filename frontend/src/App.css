@@ -1,0 +1,117 @@
+.dashboard-container {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.header {
+  background-color: #1a1a2e;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.main-content {
+  margin-top: 20px;
+  padding: 30px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* --- 기존 코드 아래에 추가해 주세요 --- */
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.security-table {
+  width: 100%;
+  border-collapse: collapse; /* 표 안의 선들을 한 줄로 깔끔하게 합침 */
+  margin-top: 15px;
+}
+
+.security-table th, .security-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.security-table th {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+
+/* 위험도 상태를 나타내는 색상 뱃지 */
+.badge {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+  font-size: 0.9em;
+}
+
+.badge.high { 
+  background-color: #dc3545; /* 빨간색 */
+} 
+.badge.low { 
+  background-color: #ffc107; /* 노란색 */
+  color: black; 
+}
+/* 제목과 버튼을 가로로 양쪽 끝에 배치하는 디자인 */
+.title-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* 새로고침 버튼 디자인 */
+.refresh-btn {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* 마우스를 올렸을 때 버튼 색상이 살짝 진해지는 효과 */
+.refresh-btn:hover {
+  background-color: #0056b3;
+}
+/* --- 요약 카드 영역 디자인 --- */
+.summary-cards {
+  display: flex;
+  gap: 20px; /* 카드 사이의 간격 */
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1; /* 카드들이 동일한 너비를 가지도록 설정 */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05); /* 약간의 그림자 효과 */
+}
+
+.card h3 {
+  margin: 0 0 10px 0;
+  color: #666;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* 위험 경고 카드의 숫자만 빨간색으로 강조 */
+.card.warning p {
+  color: #dc3545; 
+}
